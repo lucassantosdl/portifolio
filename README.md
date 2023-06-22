@@ -1,8 +1,8 @@
 
-<strong><h1 align="center"> Personal Portifolio</h1></strong>
+<strong><h1 align="center"> Personal Portfolio</h1></strong>
 
 
-<h2 align="center">🔥 Desenvolver o portifólio pessoal com conhecimentos e experiências.  🔥</h2>
+<h2 align="center">🔥 Desenvolver o portfólio pessoal com conhecimentos e experiências.  🔥</h2>
 
 
 ## Preview
