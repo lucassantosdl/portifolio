@@ -1,0 +1,145 @@
+@import url(css/global..css);
+@import url(css/intro.css);
+@import url(css/header.css);
+@import url(css/formation.css);
+@import url(css/experience.css);
+@import url(css/animation.css);
+@import url(css/footer.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.bi {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+ input {
+  display: none;
+}
+
+.bi-moon {
+  display: none;
+}
+
+header .toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.dark {
+  color: #fff;
+  background: #0c1c24;
+}
+
+.dark .bi-sun {
+  display: none;
+}
+
+.dark .bi-moon {
+  display: block;
+}
+
+.dark .header-menu a{
+  color: #fff;
+}
+
+.dark p {
+  color: #ffffffb0;  
+}
+.dark a {
+  color: #ffffffb0;  
+}
+
+.dark .formacao h2 {
+  color: #fff;
+}
+
+.dark section .empresa-conteudo p {
+  color: #ffffffb0;  
+}
+
+.dark .bi {
+  color: #ffffffb0;  
+}
+
+.dark .cursos h2 {
+  color: #060606;
+}
+
+.dark .cursos h3 {
+  color: #ffffff;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+  header .toggle {
+    margin-left: 2rem;
+  }
+
+  .dark header .header-menu a {
+  
+    background: #0c1c24;
+  }
+
+  section .faculdade-lista {
+    margin: 1rem;
+  }
+  }
+
+
+  @media (max-width: 768px) {
+    header .toggle {
+      margin-left: 2rem;
+    }
+  
+    .dark header .header-menu a {
+    
+      background: #0c1c24;
+    }
+  
+    section .faculdade-lista {
+      margin: 1rem;
+    }
+
+    main h1 {
+      text-align: center;
+    }
+
+    }
+  
+    
+  @media (max-width: 840px) {
+    header .toggle {
+      margin-left: 2rem;
+    }
+  
+    .dark header .header-menu a {
+    
+      background: #0c1c24;
+    }
+  
+    section .faculdade-lista {
+      margin: 1rem;
+    }
+
+    main h1 {
+      text-align: center;
+    }
+
+    }
+    

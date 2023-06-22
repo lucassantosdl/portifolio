@@ -1,0 +1,166 @@
+.experiencia {
+  max-width: 1200px;
+ margin: 0 auto;
+}
+.experiencia h2 {
+  font-size: 2.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.empresa {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  
+}
+.empresa-conteudo {
+  width: 500px;
+  display: grid;
+  grid-column: 2 / 3;
+  grid-auto-columns: 600px ;
+  text-align: left;
+  align-items: center;
+  
+}
+
+.empresa h2 {
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform: none;
+  font-size: 2.2rem;
+  
+
+}
+
+.empresa p {
+  font-size: 1.3rem;
+  color: #525252;
+  margin-bottom: 20px;
+  margin-top: 50px; 
+  text-align: left;
+  line-height: 1.3;
+}
+
+.empresa img {
+  width: 500px;
+  border: 2px solid #c9c9c9;
+  border-radius: 2px;
+  margin: 10px;
+  transition: .3s all ease-in-out;
+  
+}
+.empresa img:hover {
+  transform: scale(1.05);
+}
+
+.links {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  
+  
+}
+.links img {
+  display: flex;
+  width: 15px;
+  border: none;
+  border-radius: none;
+
+}
+
+.links a {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #525252;
+  text-decoration: none;
+  text-align: left;
+  
+}
+
+.links a:hover {
+  color: #7106ce;
+  font-size: 1.3rem;
+  transition: 0.3s;
+  
+}
+
+strong {
+  color: #7106ce;
+}
+@media (max-width: 1200px) {
+  
+  .experiencia h2 {
+      margin-bottom: 30px;
+  }
+  .empresa {
+      grid-template-columns: 1fr;
+      grid-row: 1fr 1fr;
+      justify-items: center;
+      align-items: center;
+      margin-bottom: 20px;
+  }
+  .empresa-conteudo {
+      display: grid;
+      grid-column: auto;
+      grid-auto-columns: 500px ;
+      text-align: left;
+  }
+  .empresa p {
+      margin-top: 20px; 
+      margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .experiencia h2 {
+      margin-bottom: 30px;
+  }
+  .empresa {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      margin-bottom: 20px;
+      margin: 20px;
+        
+  }
+  .empresa-container {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+  }
+  .empresa-conteudo {
+      display: grid;
+      grid-column: auto;
+      justify-content: center;
+      grid-auto-columns: 300px ;
+      width: 300px;
+  }
+  .empresa p {
+      margin-top: 20px; 
+      margin-bottom: 20px;
+     
+  }
+  .empresa img {
+      width: 300px;
+      border: 2px solid #c9c9c9;
+      border-radius: 2px;
+      margin: 10px;
+      transition: .3s all ease-in-out;
+      
+      
+  }
+  .links img {
+      display: flex;
+      width: 15px;
+      border: none;
+      border-radius: none;
+  
+  }
+ 
+}

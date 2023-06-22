@@ -1,0 +1,28 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0px;
+  color: #141414;
+  box-sizing: border-box;
+  background-color: #eceff1;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+@media (max-width: 800px) {
+    .subtitulo {
+        font-size: 3rem;
+        text-transform: 3rem;
+        max-width: initial !important;
+    }
+}
